@@ -5,9 +5,9 @@ function WindowSize() {
     const {width, height} = useWindowSize()
 
     function  getImg() {
-        if(width <= 768) return './public/img/task3/img03.png'
-        else if(width <= 1024) return './public/img/task3/img02.png'
-        else return './public/img/task3/img01.png'
+        if(width <= 768) return '/img/task3/img03.png'
+        else if(width <= 1024) return '/img/task3/img02.png'
+        else return '/img/task3/img01.png'
     }
 
     return (
