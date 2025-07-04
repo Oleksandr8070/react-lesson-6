@@ -1,0 +1,15 @@
+ul.scrollableList {
+    height: 200px;       
+    overflow-y: auto;  
+    border: 2px solid $color-primary;
+    padding: 0;
+    margin: 0;
+    border-radius: 4px;
+}
+
+ul.scrollableList li {
+    list-style: none;
+    padding: 5px 10px;
+    border-bottom: 1px solid $color-primary;
+    border-radius: 4px;
+}

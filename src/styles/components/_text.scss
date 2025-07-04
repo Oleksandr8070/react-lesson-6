@@ -1,0 +1,29 @@
+.textRed {
+    color: $color-red;
+}
+
+.textBlue {
+    color: $color-blue;
+}
+
+.textGreen {
+    color: $color-green;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.textMedium {
+    font-size: 20px;
+}
+
+.textLarge {
+    font-size: 25px;
+}
+
+.ellipsis {
+    white-space: nowrap;       
+    overflow: hidden;           
+    text-overflow: ellipsis;    
+}

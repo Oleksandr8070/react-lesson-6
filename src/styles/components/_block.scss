@@ -1,0 +1,46 @@
+.taskBlock {
+  max-width: 1320px;
+  margin: 32px auto;
+  padding: 24px 32px;
+  background: $color-bg;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px $shadow;
+  font-family: 'Inter', system-ui, sans-serif;
+  color: $color-text;
+  margin-bottom: 40px;
+}
+
+.content {
+  padding: 20px 24px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: inset 0 0 8px $shadow-inset;
+  margin-bottom: 32px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.block, .blockSmall {
+  margin: 0 auto;
+  box-shadow: inset 0 0 8px $shadow-inset;
+  max-width: 600px;
+  min-width: 300px;
+  background-color: rgb(221, 216, 216);
+  padding: 28px;
+  border-radius: 8px;
+}
+
+.blockSmall {
+  width: 400px;
+}
+
+.blockBig {
+  margin: 0 auto;
+  box-shadow: inset 0 0 8px $shadow-inset;
+  max-width: 800px;
+  padding: 28px;
+  border-radius: 8px;
+  background-color: rgb(221, 216, 216);
+}
+
+
